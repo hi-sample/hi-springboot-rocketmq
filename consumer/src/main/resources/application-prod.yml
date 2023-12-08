@@ -1,0 +1,16 @@
+# 生产环境
+var:
+  mq:
+    server: test.kvt03.hifor.net:9876
+    topic: topicTest
+    group: groupConsumerTest
+
+server:
+  #default port 8080
+  port: 8990
+
+rocketmq:
+  name-server: ${var.mq.server}
+  consumer:
+    access-key: "o5jaND^l"
+    secret-key: "ukCR1%DL"

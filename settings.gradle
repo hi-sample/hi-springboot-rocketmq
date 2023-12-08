@@ -1,0 +1,4 @@
+rootProject.name = 'hi-springboot-rocketmq'
+include 'producer'
+include 'consumer'
+

@@ -1,0 +1,15 @@
+# 开发环境
+var:
+  mq:
+    server: test.kvt03.hifor.net:9876
+    topic: topicTest
+    group: groupProducerTest
+
+server:
+  #default port 8080
+  port: 8989
+
+rocketmq:
+  name-server: ${var.mq.server}
+  producer:
+    group: ${var.mq.group}
